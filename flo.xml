@@ -3,4 +3,6 @@
   <project name="deb-flo/android_device_asus_flo" path="device/asus/flo" remote="github" revision="aosip-pie" />
   <project name="followmsi/android_kernel_google_msm" path="kernel/google/msm" remote="github" revision="followmsi-pie" />
   <project name="followmsi/android_vendor" path="vendor/asus" remote="github" revision="flo-deb-aosp-p" />
+  <remove-project name="LineageOS/android_hardware_broadcom_nfc" />
+  <remove-project name="android_hardware_qcom_camera" />
 </manifest>
