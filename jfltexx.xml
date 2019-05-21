@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="LineageOS/android_device_samsung_jfltexx" path="device/samsung/jfltexx" remote="github" revision="cm-13.0" />
+  <project name="LineageOS/android_kernel_google_msm" path="kernel/google/msm" remote="github" revision="cm-13.0" />
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-13.0" />
+</manifest>
