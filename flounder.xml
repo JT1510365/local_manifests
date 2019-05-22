@@ -1,1 +1,7 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="LineageOS/android_device_flounder" path="device/htc/flounder" remote="github" revision="cm-13.0" />
+  <project name="LineageOS/android_kernel_google_msm" path="kernel/google/msm" remote="github" revision="cm-13.0" />
+  <project name="LineageOS/android_kernel_htc_flounder" path="kernel/htc/flounder" remote="github" revision="cm-13.0" />
+  <project name="TheMuppets/TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-13.0" />
+</manifest>
