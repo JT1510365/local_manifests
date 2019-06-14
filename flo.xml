@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="deb-flo/android_device_asus_flo" path="device/asus/flo" remote="github" revision="aosip-pie" />
-  <project name="followmsi/android_kernel_google_msm" path="kernel/google/msm" remote="github" revision="followmsi-pie" />
-  <project name="followmsi/android_vendor" path="vendor/asus" remote="github" revision="flo-deb-aosp-p" />
-  <remove-project name="LineageOS/android_hardware_broadcom_nfc" />
-  <remove-project name="android_hardware_qcom_camera" />
+  <remote name="github" fetch="https://github.com" />/
+  <project name="followmsi/android_vendor" path="vendor" remote="github" revision="flo-deb-aosp-nougat" />
+  <project name="followmsi/android_external_stlport" path="external/stlport" remote="github" revision="omni-android-7.0" />
+  <remove-project name="platform/external/chromium-webview" />
+  <project name="followmsi/android_external_chromium-webview" path="external/chromium-webview" remote="github" clone-depth="1" revision="cm-14.1" />
+  <remove-project name="platform/build" />
+  <project name="followmsi/platform_build" path="build" remote="github" revision="flo-deb-aosp-nougat" />
+  <remove-project name="platform/bionic" />
+  <project name="followmsi/platform_bionic"  path="bionic"  remote="github" revision="aosp-nougat" />
+  <remove-project name="platform/frameworks/av" />
+  <project name="followmsi/platform_frameworks_av" path="frameworks/av" remote="github" revision="aosp-nougat" />
+  <remove-project name="platform/frameworks/base" />
+  <project name="followmsi/platform_frameworks_base" path="frameworks/base" remote="github" revision="aosp-nougat" />
+  <remove-project name="platform/hardware/qcom/audio" />
+  <project name="followmsi/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="aosp-nougat" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <project name="followmsi/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="github" revision="aosp-nougat" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <project name="followmsi/android_hardware_qcom_media" path="hardware/qcom/media" groups="qcom" remote="github" revision="aosp-nougat-merge" />
+  <remove-project name="platform/system/core" />
+  <project name="followmsi/platform_system_core" path="system/core"  groups="pdk" remote="github" revision="aosp-nougat" />
+  <remove-project name="platform/system/sepolicy" />
+  <project name="followmsi/android_system_sepolicy" path="system/sepolicy" remote="github" revision="aosp-nougat" />
 </manifest>
